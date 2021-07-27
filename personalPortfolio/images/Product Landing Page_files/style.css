@@ -1,0 +1,130 @@
+html{
+    background-image: url("https://i.imgur.com/4fojPb0.jpeg");
+    background-size: cover;
+  }
+  
+  #header{
+      
+      width: 100%;  
+      height: 80px;
+      display: block;
+      
+      opacity: 1;
+      position: sticky;
+      top: 0;
+      
+  }
+  .fixed {
+      position: fixed;
+      top:0; left:0;
+      width: 100%; 
+      opacity:0.1;
+  }
+  
+  
+  
+  .logo{
+      width: 1000px;
+      height: 100%;
+      border-radius:40px;
+      padding-left:40px;
+      margin: 0 auto;
+      background-color: skyblue;
+      display: block;
+  
+  }
+  @media (max-width: 650px) {
+      .logo {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+      }
+    }
+  
+  #hero{
+      display: flex;
+      color:  white;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 200px;
+      margin-top: 50px;
+      
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: column;
+      margin:30px 350px;
+      padding: 50px;
+      border-radius: 20px;
+      background-color:lightcoral;
+      background-blend-mode:darken;
+  }
+  
+  
+  
+  
+  .youtube{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  
+  
+  .logo-container{
+        height: 100%;
+        display: table;
+        float: left;
+  }
+  .logo-container h1{
+      color: white;
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      font-family:'fantasy';
+      font-weight:100;
+  }
+  
+  .logo-container h1 span{
+      font-weight: 900;
+  }
+  
+  
+  #header-img{
+      height: 100% ;
+      display: table;
+      float: left;
+  }
+  
+  #nav-bar{
+      float: right;
+      height: 100%;
+    
+      
+  }
+  #nav-bar a{
+      height: 100%;
+      display: table;
+      float: left;
+    
+      padding: 0  20px;
+  }
+  #nav-bar a li{
+      text-decoration:underline skyblue;
+      display: table-cell;
+      vertical-align: middle;
+      height: 100%;
+      color: black;
+      
+      font-size: 16px;
+  }
+  #nav-bar ul{
+    background-color:white;
+  }
+  
+  
